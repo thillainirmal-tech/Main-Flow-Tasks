@@ -90,15 +90,7 @@ Mainflow-tasks-bill_generation/
 ├── billing_app.db       # SQLite database (generated automatically)
 └── Invoice_x.pdf        # Generated invoice PDF (sample file)
 
-Download
 
-To download the project directly, use the link below:
-
-Download Billing Software Application
-
-Alternatively, you can clone the repository by running:
-
-git clone https://github.com/8870hack/Mainflow-tasks-bill_generation.git
 
 Contributing
 
