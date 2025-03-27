@@ -85,7 +85,7 @@ def view_expenses():
 
 1. Clone the repository:
     ```bash
-    git clone github.com/8870hack/Mainflow-tasks.git
+    git clone github.com/thillainirmal-tech/Mainflow-tasks.git
     ```
 2. Navigate to the project directory:
     ```bash
