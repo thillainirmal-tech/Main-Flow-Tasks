@@ -1,4 +1,4 @@
-# 🌟 **Java and Python Project Collection by Thillai Nirmal**
+# 🌟 **Python Project Collection by Thillai Nirmal**
 
 > This repository contains a collection of **Python projects**, covering various functionalities such as web scraping, currency conversion, billing software, command-line calculations, and expense tracking.
 
