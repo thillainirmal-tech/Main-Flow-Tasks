@@ -1,76 +1,74 @@
-USD Currency Converter
+# 💵 USD Currency Converter
 
 A simple Python-based USD currency converter application with a graphical user interface (GUI) that allows users to convert USD to various other currencies based on the latest exchange rates. The application fetches live rates from an API and performs real-time conversions.
 
-Project Overview
+---
 
-Language: Python
+## 📌 **Project Overview**
 
-Libraries Used: Tkinter (for GUI), Requests (for API calls)
+- **Language:** Python  
+- **Libraries Used:**  
+  - `Tkinter` (for GUI)  
+  - `Requests` (for API calls)  
+- **API Used:** [ExchangeRate-API](https://www.exchangerate-api.com)  
 
-API Used: ExchangeRate-API
+---
 
+## ⚙️ **Features**
 
-Features
+✅ **Real-Time Conversion:** Fetches live conversion rates from USD to multiple currencies.  
+✅ **User-Friendly Interface:** Allows easy input of amounts in USD and selection of target currencies.  
+✅ **Accurate Results:** Handles various input cases for reliable currency conversions.  
 
-Real-Time Conversion: Fetches live conversion rates from USD to multiple currencies.
+---
 
-User-Friendly Interface: Allows easy input of amounts in USD and selection of target currencies.
+## 🚀 **Installation**
 
-Accurate Results: Handles various input cases for reliable currency conversions.
+### 🛠️ Prerequisites
 
+- Python 3.x installed  
+- (Optional) Jupyter Lab (for GUI interface)  
+- ExchangeRate-API key (available at [ExchangeRate-API](https://www.exchangerate-api.com))  
 
-Installation
+### 🔧 **Setup Instructions**
 
-Prerequisites
-
-Python 3.x or jupyter lab(for gui interface)
-
-ExchangeRate-API key (available at ExchangeRate-API)
-
-
-Setup Instructions
-
-1. Clone the repository:
-
+1. **Clone the repository:**
+```bash
 git clone https://github.com/8870hack/USD-Currency-Converter.git
 cd USD-Currency-Converter
+```
 
-
-2. Install the required Python libraries:
-
+2. **Install the required Python libraries:**
+```bash
 pip install requests
+```
 
+3. **Add your API key:**
+- Open `currency_converter.py`
+- Replace `YOUR_API_KEY` with your actual ExchangeRate-API key in the `fetch_rates()` function:
+```python
+url = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/USD"
+```
 
-3. Add your API key:
+---
 
-Open currency_converter.py and replace YOUR_API_KEY in the fetch_rates() function:
+## 💡 **Usage**
 
-url = "https://v6.exchangerate-api.com/v6/e95a18d93e37e78f9875c5ad/latest/USD"
-
-
-
-
-Usage
-
-1. Run the Application:
-
+1. **Run the Application:**
+```bash
 python currency_converter.py
+```
 
+2. **Instructions:**
+- Enter an amount in USD in the input field.  
+- Select the target currency from the dropdown menu.  
+- Click the **"Convert"** button to see the conversion result.  
 
-2. Instructions:
+---
 
-Enter an amount in USD in the input field.
+## 🛠️ **Code Overview**
 
-Select the target currency from the dropdown menu.
-
-Click the "Convert" button to see the conversion result.
-
-
-
-
-Code Overview
-
+```python
 import requests
 import tkinter as tk
 
@@ -93,6 +91,7 @@ def convert():
     except ValueError:
         result_label.config(text="Invalid USD amount.")
 
+# GUI Configuration
 root = tk.Tk()
 root.title("USD Currency Converter")
 
@@ -115,7 +114,15 @@ convert_button = tk.Button(root, text="Convert", command=convert)
 convert_button.pack()
 
 root.mainloop()
+```
 
-License
+---
 
-This project is open-source and available under the MIT License.
+## 📚 **Contributing**
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.  
+
+---
+
+## 📜 **License**
+This project is licensed under the MIT License.  
+
