@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💵 USD Currency Converter
 
 A simple Python-based USD currency converter application with a graphical user interface (GUI) that allows users to convert USD to various other currencies based on the latest exchange rates. The application fetches live rates from an API and performs real-time conversions.
@@ -126,3 +127,34 @@ If you'd like to contribute to this project, feel free to fork the repository an
 ## 📜 **License**
 This project is licensed under the MIT License.  
 
+=======
+# Billing Software Application
+
+A simple billing software application developed in Python, featuring a graphical user interface (GUI) for managing customer transactions, generating invoices, and tracking sales. The application uses [...]
+
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Download](#download)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+- Add and manage product details (name, price).
+- Add and manage customer information (name, contact).
+- Generate PDF invoices for customer transactions.
+- Simple and user-friendly GUI using Tkinter.
+
+## Requirements
+- Python 3.x
+- SQLite3 (comes with Python)
+- Tkinter (comes with Python on most systems)
+- [ReportLab](https://www.reportlab.com/) for PDF generation
+
+To install the ReportLab library, use:
+```bash
+pip install reportlab
+>>>>>>> bill-generation-branch
