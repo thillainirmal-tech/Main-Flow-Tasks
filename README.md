@@ -38,7 +38,7 @@ Download as a ZIP: Click here to download, then unzip it on your computer.
 
 Clone using Git: Alternatively, you can clone the repository by running:
 
-git clone https://github.com/8870hack/Mainflow-tasks-bill_generation.git
+git clone https://github.com/thillainirmal-tech/Mainflow-tasks-bill_generation.git
 cd Mainflow-tasks-bill_generation
 
 
