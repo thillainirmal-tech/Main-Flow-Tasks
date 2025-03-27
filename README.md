@@ -34,7 +34,7 @@ A simple Python-based USD currency converter application with a graphical user i
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/8870hack/USD-Currency-Converter.git
+git clone https://github.com/thillainirmal-tech/USD-Currency-Converter.git
 cd USD-Currency-Converter
 ```
 
